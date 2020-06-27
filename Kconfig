@@ -1,0 +1,12 @@
+mainmenu "Kbuild hello configuration"
+
+menu HELLO_KBUILD
+	config ARM
+	tristate "enable gcc arm"
+	config x86
+	bool "enable gcc x86"
+	config MYPRINT
+	bool "enable myprint.c"
+help
+	this is a test
+endmenu
